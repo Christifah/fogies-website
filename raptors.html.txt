@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Toronto Raptors Hub</title>
+  <link rel="stylesheet" href="raptors-style.css">
+</head>
+<body>
+  <header>
+    <h1>Toronto Raptors Fan Hub</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="weather.html">Weather</a></li>
+        <li><a href="dust.html">Sahara Dust</a></li>
+        <li><a href="raptors-roster.html">Roster</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="video-section">
+      <h2>🎧 Raptors Videos</h2>
+      <iframe src="https://www.youtube.com/embed/coP9cj4KEw4" title="Raptors Commentary"></iframe>
+      <iframe src="https://www.youtube.com/embed/0sMyuj7xjxE" title="Roster Moves"></iframe>
+      <iframe src="https://www.youtube.com/embed/BGYgHQkuhXQ" title="Team Evaluation"></iframe>
+    </section>
+
+    <section class="news-section">
+      <h2>📰 Latest Raptors News</h2>
+      <ul>
+        <li><a href="https://www.raptorsrepublic.com/2025/07/29/how-does-collin-murray-boyles-fit-on-the-toronto-raptors/" target="_blank">How Collin Murray-Boyles fits into the Raptors' rotation</a></li>
+        <li><a href="https://www.nba.com/raptors/roster" target="_blank">Official Raptors Roster Page</a></li>
+        <li><a href="https://www.cbssports.com/nba/teams/TOR/toronto-raptors/roster/" target="_blank">CBS Sports Raptors Roster</a></li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
