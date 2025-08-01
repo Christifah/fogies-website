@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="900">
+  <title>Sahara Dust Map</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #cc6600;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .dust-map-section {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .dust-map-section h2 {
+      font-size: 26px;
+      margin-bottom: 20px;
+    }
+    .dust-map-section img {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+    .forecast-link {
+      font-size: 18px;
+      margin-top: 20px;
+    }
+    .forecast-link a {
+      color: #cc6600;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .forecast-link a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sahara Dust Map</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="raptors.html">Toronto Raptors</a></li>
+        <li><a href="weather.html">Montego Bay Weather</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="dust-map-section">
+      <h2>🧭 Saharan Air Layer Forecast</h2>
+      <p>This map shows the movement of Saharan dust across the Atlantic and Caribbean, including Jamaica.</p>
+      <img src="https://tropic.ssec.wisc.edu/real-time/sal/g16split/g16split.jpg" alt="Saharan Dust Map">
+      <div class="forecast-link">
+        <p>🔗 For interactive maps and updates, visit:</p>
+        <a href="https://www.myfoxhurricane.com/saharan_dust_car.html" target="_blank">
+          MyFoxHurricane Sahara Dust Forecast
+        </a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

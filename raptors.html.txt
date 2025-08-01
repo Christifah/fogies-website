@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Toronto Raptors</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .player {
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    .player img {
+      width: 300px;
+      border-radius: 10px;
+    }
+    .player h2 {
+      font-size: 24px;
+      margin-top: 10px;
+    }
+    .player p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: auto;
+    }
+    .video-section, .news-section {
+      margin-top: 50px;
+      text-align: center;
+    }
+    iframe {
+      width: 100%;
+      max-width: 560px;
+      height: 315px;
+      margin: 20px auto;
+      display: block;
+    }
+    .news-section ul {
+      list-style: none;
+      padding: 0;
+      font-size: 18px;
+    }
+    .news-section li {
+      margin-bottom: 15px;
+    }
+    .news-section a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+    .news-section a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Toronto Raptors Roster</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="weather.html">Montego Bay Weather</a></li>
+        <li><a href="dust.html">Sahara Dust Map</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Full roster (shortened here for space) -->
+    <div class="player">
+      <img src="https://nba-players-profile.s3.amazonaws.com/scottie-barnes.jpg" alt="Scottie Barnes">
+      <h2>Scottie Barnes (#4)</h2>
+      <p>Versatile forward, age 24. A rising star known for his defense, leadership, and all-around game.</p>
+    </div>
+    <!-- Add all other players here as previously provided -->
+
+    <div class="video-section">
+      <h2>🎧 Raptors Videos & Podcasts</h2>
+      <iframe src="https://www.youtube.com/embed/coP9cj4KEw4" title="Raptors Commentary"></iframe>
+      <iframe src="https://www.youtube.com/embed/0sMyuj7xjxE" title="Roster Moves"></iframe>
+      <iframe src="https://www.youtube.com/embed/BGYgHQkuhXQ" title="Team Evaluation"></iframe>
+    </div>
+
+    <div class="news-section">
+      <h2>📰 Latest Raptors News</h2>
+      <ul>
+        <li><a href="https://athlonsports.com/nba/toronto-raptors/nba-teams-facing-decision-after-ex-raptors-player-announces-comeback-attempt" target="_blank">Ex-Raptors player Rondae Hollis-Jefferson attempts NBA comeback</a></li>
+        <li><a href="https://www.raptorsrepublic.com/2025/07/29/how-does-collin-murray-boyles-fit-on-the-toronto-raptors/" target="_blank">How Collin Murray-Boyles fits into the Raptors' rotation</a></li>
+        <li><a href="https://www.msn.com/en-us/sports/nba/former-sixers-big-man-cut-loose-by-raptors/ar-AA1JA1gf" target="_blank">Raptors waive center Colin Castleton after Summer League</a></li>
+        <li><a href="https://www.raptorsrepublic.com/2025/07/27/toronto-raptors-nba-2k26-player-ratings-revealed/" target="_blank">NBA 2K26 ratings for Raptors revealed: Ingram leads</a></li>
+        <li><a href="https://sportspyder.com/nba/toronto-raptors/news" target="_blank">Live Raptors News Feed – SportSpyder</a></li>
+        <li><a href="https://www.newsnow.com/ca/Sports/NBA/Toronto+Raptors" target="_blank">Toronto Raptors News & Rumors – NewsNow</a></li>
+        <li><a href="https://www.yardbarker.com/nba/teams/toronto_raptors/67" target="_blank">Breaking News & Highlights – Yardbarker</a></li>
+      </ul>
+      <p>🕒 This section updates automatically every few minutes via external sources.</p>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to Montego Bay Info Hub</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e0f7fa;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #00796b;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 30px;
+      max-width: 800px;
+      margin: auto;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    .link-box {
+      margin: 20px 0;
+      padding: 20px;
+      background-color: #f1f8e9;
+      border: 2px solid #c5e1a5;
+      border-radius: 8px;
+    }
+    .link-box a {
+      font-size: 20px;
+      color: #33691e;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .link-box a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Montego Bay Info Hub</h1>
+    <nav>
+      <ul>
+        <li><a href="weather.html">Weather</a></li>
+        <li><a href="dust.html">Sahara Dust Map</a></li>
+        <li><a href="raptors.html">Toronto Raptors</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>🌴 Your Gateway to Local Updates</h2>
+
+    <div class="link-box">
+      <p>🌤️ Check the latest weather and air quality:</p>
+      <a href="weather.html">Montego Bay Weather & Air Quality</a>
+    </div>
+
+    <div class="link-box">
+      <p>🌪️ Track Sahara dust movement across the Caribbean:</p>
+      <a href="dust.html">Sahara Dust Map</a>
+    </div>
+
+    <div class="link-box">
+      <p>🏀 Catch up on your favorite NBA team:</p>
+      <a href="raptors.html">Toronto Raptors Page</a>
+    </div>
+  </main>
+</body>
+</html>

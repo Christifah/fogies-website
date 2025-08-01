@@ -1,0 +1,107 @@
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+  background-color: #0077cc;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 32px;
+  margin: 0;
+}
+
+/* Navigation Bar */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content Area */
+main {
+  padding: 30px;
+  max-width: 900px;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Section Headings */
+h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Forecast and Link Styling */
+.forecast-link {
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.forecast-link a {
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.forecast-link a:hover {
+  text-decoration: underline;
+}
+
+/* Image Styling */
+img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+}
+
+/* Link Boxes on Homepage */
+.link-box {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f1f8e9;
+  border: 2px solid #c5e1a5;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.link-box a {
+  font-size: 20px;
+  color: #33691e;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link-box a:hover {
+  text-decoration: underline;
+}

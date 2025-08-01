@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Montego Bay Weather</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #0077cc;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    nav ul li {
+      display: inline;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .weather-section, .air-quality-section {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .weather-section h2, .air-quality-section h2 {
+      font-size: 26px;
+      margin-bottom: 20px;
+    }
+    .weather-widget {
+      margin: 30px auto;
+    }
+    .forecast-link {
+      font-size: 18px;
+      margin-top: 20px;
+    }
+    .forecast-link a {
+      color: #0077cc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .forecast-link a:hover {
+      text-decoration: underline;
+    }
+    iframe {
+      border: none;
+      width: 100%;
+      height: 400px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Montego Bay Weather</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="raptors.html">Toronto Raptors</a></li>
+        <li><a href="dust.html">Sahara Dust Map</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="weather-section">
+      <h2>🌤️ Current Conditions in Montego Bay</h2>
+      <div class="weather-widget">
+        <!-- WeatherWidget.io embed -->
+        <a class="weatherwidget-io" href="https://forecast7.com/en/18d47n77d92/montego-bay/" data-label_1="MONTEGO BAY" data-label_2="WEATHER" data-theme="pure">MONTEGO BAY WEATHER</a>
+        <script>
+          !function(d,s,id){
+            var js,fjs=d.getElementsByTagName(s)[0];
+            if(!d.getElementById(id)){
+              js=d.createElement(s);js.id=id;
+              js.src='https://weatherwidget.io/js/widget.min.js';
+              fjs.parentNode.insertBefore(js,fjs);
+            }
+          }(document,'script','weatherwidget-io-js');
+        </script>
+      </div>
+
+      <div class="forecast-link">
+        <p>📅 For the full 10-day forecast, visit:</p>
+        <a href="https://weather.com/weather/tenday/l/Montego+Bay+Saint+James+Jamaica?placeId=6bfee74b75f45922a8cc29373a51b3551efbecb54691edbad40693b9e0d3ef0a" target="_blank">
+          View 10-Day Forecast on The Weather Channel
+        </a>
+      </div>
+    </div>
+
+    <div class="air-quality-section">
+      <h2>🌬️ Air Quality in Montego Bay</h2>
+      <iframe title="Montego Bay Air Quality"
+        src="https://www.iqair.com/world-air-quality/widget/embed?city=Montego%20Bay&state=Saint%20James&country=Jamaica&lang=en">
+      </iframe>
+      <p class="forecast-link">
+        For detailed air pollution data, visit the
+        <a href="https://www.iqair.com/jamaica/st-james/montego-bay" target="_blank">
+          Montego Bay Air Quality page on IQAir
+        </a>.
+      </p>
+    </div>
+  </main>
+</body>
+</html>
