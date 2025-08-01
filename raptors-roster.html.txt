@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Toronto Raptors Roster</title>
+  <link rel="stylesheet" href="raptors-style.css">
+</head>
+<body>
+  <header>
+    <h1>2024–25 Raptors Roster</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="raptors.html">Raptors Hub</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="player">
+      <img src="https://nba-players-profile.s3.amazonaws.com/scottie-barnes.jpg" alt="Scottie Barnes">
+      <h2>Scottie Barnes (#4)</h2>
+      <p>Scottie Barnes is a versatile forward known for his energy and leadership. He was drafted from Florida State and quickly became a fan favorite. His defense and playmaking make him a cornerstone of the Raptors’ future. Off the court, he’s known for his infectious positivity and team-first attitude.</p>
+    </section>
+
+    <section class="player">
+      <img src="https://nba-players-profile.s3.amazonaws.com/rj-barrett.jpg" alt="RJ Barrett">
+      <h2>RJ Barrett (#9)</h2>
+      <p>RJ Barrett is a proud Canadian and a dynamic scorer. He played college basketball at Duke and brings toughness and clutch shooting to the Raptors. RJ is a key part of the team’s offensive strategy. His leadership and experience help guide younger players on the roster.</p>
+    </section>
+
+    <section class="player">
+      <img src="https://nba-players-profile.s3.amazonaws.com/immanuel-quickley.jpg" alt="Immanuel Quickley">
+      <h2>Immanuel Quickley (#5)</h2>
+      <p>Immanuel Quickley is a speedy point guard known for his shooting and hustle. He played at Kentucky and has become a reliable contributor in the backcourt. Quickley’s ability to create plays and score in bunches makes him a fan favorite. He’s also praised for his work ethic and leadership.</p>
+    </section>
+
+    <!-- Add more players here using the same format -->
+  </main>
+</body>
+</html>
